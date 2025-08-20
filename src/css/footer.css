@@ -1,0 +1,47 @@
+.footer {
+  background: #ffb6c1;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: auto;
+}
+
+.below-footer p {
+  margin: 8px 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px; /* spacing between items */
+  flex-wrap: wrap; /* responsive on small screens */
+  margin: 10px 0;
+}
+
+.contact-links {
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.contact-links:hover {
+  color: #ff3385;
+}

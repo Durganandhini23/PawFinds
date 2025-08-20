@@ -1,0 +1,102 @@
+/* General Page Styling */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+.page-container {
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  color: #ff69b4;
+  margin-bottom: 30px;
+}
+
+.services-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.services-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.page-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.page-list li {
+  margin-bottom: 15px;
+}
+
+.services-image {
+  flex: 1;
+  min-width: 250px;
+}
+
+.services-image img {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+
+.service-form {
+  margin-top: 40px;
+  padding: 20px;
+  background: #fff8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.service-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.service-form input,
+.service-form select,
+.service-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.service-form button {
+  background: #ff6b81;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.service-form button:hover {
+  background: #ff4757;
+}

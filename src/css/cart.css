@@ -1,0 +1,116 @@
+/* Cart Page Styling */
+.cart-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.cart-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ee3da7;
+  margin-bottom: 25px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.05);
+}
+
+.cart-item h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.cart-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.cart-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cart-actions button {
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+/* + and - buttons */
+.qty-btn {
+  background: #ee3da7;
+  color: #fff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qty-btn:hover {
+  background: #e676b9;;
+}
+
+/* Quantity display */
+.cart-actions span {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 0 6px;
+}
+
+/* Remove button */
+.btn-remove {
+  background: #ee3da7;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.btn-remove:hover {
+  background: #e676b9;
+}
+
+/* Total section */
+.cart-total {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+}
+
+/* Checkout button */
+.checkout-btn {
+  width: 40%;
+  background: #ee3da7;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.checkout-btn:hover {
+  background: #e676b9;;
+}

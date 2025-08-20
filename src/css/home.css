@@ -1,0 +1,141 @@
+/* Landing Section */
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  padding: 80px 50px;
+  /* background-color: #ffe4f0; */
+  flex-wrap: wrap; /* for responsiveness */
+  text-align: left;
+}
+
+.landing-text {
+  max-width: 500px;
+  text-align: center; /* ✅ Center text + button */
+}
+
+.landing-text h1 {
+  font-size: 45px;
+  color: #ff69b4;
+  margin-bottom: 20px;
+}
+
+.landing-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+
+.explore-btn-container {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  margin-top: 20px; /* optional spacing */
+}
+
+.explore-btn {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: fit-content; /* shrink to text size */
+}
+
+.explore-btn:hover {
+  background: #ff3385;
+}
+
+.landing-img img {
+  width: 400px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Cards Section */
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 60px auto;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  width: 280px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+/* Adopt Section */
+.adopt-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f7e3e6;
+  border-radius: 12px;
+  margin: 50px auto;
+  max-width: 900px;
+}
+
+.adopt-section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.adopt-btn {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  padding: 8px 16px;  /* reduced padding */
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  display: block;
+  margin: 1px auto;   /* centers but keeps it small */
+  width: fit-content;  /* shrink to text size */
+}
+
+
+
+.adopt-btn:hover {
+  background: #ff3385;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .landing {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .landing-text {
+    max-width: 100%;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

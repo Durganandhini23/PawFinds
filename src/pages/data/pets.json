@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "price" : 2000,
+    "name": "Golden Retriever",
+    "category": "Dog",
+    "image": "https://imgs.search.brave.com/am6Ul00TaEDyOQ4-d64aWH67hcqou_TElRZhHOXLn4U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9nb2xk/ZW4tcmV0cmlldmVy/LTg4MjI0MTUuanBn"
+  },
+  {
+    "id": 2,
+    "price" : 2000,
+    "name": "Persian Cat",
+    "category": "Cat",
+    "image": "https://imgs.search.brave.com/nkXOM0AxdTB_9osj8sT5fySbM8sdKTYZuqQTHa83sNI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzY4LzQ4LzE1/LzM2MF9GXzU2ODQ4/MTU2OV9TUG9NOUFM/Uk5JRHBnM2VsWW5Y/WGEzdkFyaEJMaHhJ/Qy5qcGc"
+
+  },
+  {
+    "id": 3,
+    "price" : 2000,
+    "name": "Cockatiel",
+    "category": "Bird",
+    "image": "https://imgs.search.brave.com/EueP_faBDCp-qcXx6dHfU3OaXlMKCS36JFwvqam9DCY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/b21sZXQudXMvaW1h/Z2VzL2NhY2hlLzUx/Mi8zNzAvUGFycm90/LUNvY2thdGllbC1B/X3dvbmRlcmZ1bF9D/b2NrYXRpZWxfcGVy/Y2hpbmdfb25fYV9i/cmFuY2guanBn"
+  }
+]
